@@ -1,0 +1,8 @@
+<h3>Committee Lookup Form</h3>
+
+{{#x-select value=chamber}}
+  {{#x-option value='senate'}}Senate{{/x-option}}
+  {{#x-option value='house'}}House{{/x-option}}
+{{/x-select}}
+
+<button class="btn btn-primary" {{action 'selectChamber'}}>Submit</button>
